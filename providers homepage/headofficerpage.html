@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Security Head Homepage</title>
+	<link href = "C:\Users\Admin\Desktop\water billing\consumer login\this2.css" type = "text/css" rel = "stylesheet">
+</head>
+<body class="background">
+	<center><h1>Computerized water billing system</h1></br>
+		<h4>Security Head Information</h4>	
+	</center>
+	<div class="info">
+		<center>
+		Name : <input type="text" value="Babu Patel"></br></br>
+		Head Id : <input type="text" value="160303105097"></br></br>
+		Address of Office : <input type="text" value="Gujarat"></br></br>
+		Date of Registration : <input type="text" value="10/25/2011"></br></br>
+		Contact : <input type="text" value="+918888881999"></br></br>
+		</center>
+	</div>
+	<center>
+	Blocked Consumer's list : <input list="browsers">
+  <datalist id="browsers">
+    <option value="Mihir">
+    <option value="Sahil">
+    <option value="Sohil">
+    <option value="Brij">
+    <option value="Vivek">
+  </datalist></br></br>
+  	:Enter the name of consumer who's Services you want to block:</br></br>
+   	Name : <input type="text"><button onclick="blockconsumer()">Block!</button></br></br>
+   	:Enter the name of consumer who's Services you want to Unblock:</br></br>
+   	Name : <input type="text"><button onclick="unblockconsumer()">Unblock!</button></br></br>
+	Click the button to check the pipeline : <button onclick="alertpipelinefunc()">Click!</button></br></br>
+	Click the button to check the meters : <button onclick="alertmeterfunc()">Click!</button></br></br>
+	Enter the name of consumer which one's data or bills information you want to change : 
+	 <input type="text"><button onclick="billchange()">Click!</button></br></br>
+	<button><a href="C:\Users\Admin\Desktop\water billing\homepage\firstpage.html">Logout!</a></button></br></br>
+	</center>
+	<script type="text/javascript">
+	function alertpipelinefunc(){
+			alert("There is no damage in the pipeline!");
+		}
+	function alertmeterfunc(){
+			alert("There is damage in the meter of Babu!");
+		}
+	function blockconsumer(){
+			alert("Consumer services are blocked! If yo want to unblock them just enter the name in unblock section!");
+		}
+	function unblockconsumer(){
+			alert("Consumer services are unblocked! If yo want to block them again just enter the name in block section!");
+		}
+	function billchange(){
+			alert("Consumer's bill checking will be done again and data will be send to your desk as soon as possible!");
+		}
+	</script>
+</body>
+</html>

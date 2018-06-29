@@ -1,0 +1,19 @@
+h1{
+	font-style: italic;
+	color: rgb(255,255,255);
+	text-decoration: underline;
+	text-shadow: 10px 10px 15px;
+}
+
+.background{
+	background-image: url("IMG_1988.jpg");
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+#map{
+	height: 300px;
+	width: 500px;
+}
